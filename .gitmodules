@@ -1,0 +1,3 @@
+[submodule "recipe-be"]
+	path = recipe-be
+	url = https://github.com/danielloyzaga/recipe-be.git

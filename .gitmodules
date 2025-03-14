@@ -1,3 +1,6 @@
 [submodule "recipe-be"]
 	path = recipe-be
-	url = https://github.com/danielloyzaga/recipe-be.git
+	url = git@github.com:danielloyzaga/recipe-be.git
+[submodule "recipe-fe"]
+	path = recipe-fe
+	url = git@github.com:danielloyzaga/recipe-fe.git

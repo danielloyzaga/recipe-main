@@ -1,4 +1,9 @@
 services:
+  frontend:
+    build: ./recipe-fe
+    ports:
+      - '3000:3000'
+
   backend:
     build: ./recipe-be
     ports:
@@ -9,6 +14,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_URI: ${MONGO_URI}
     volumes:
       - mongo_data:/data/db
 
